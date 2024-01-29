@@ -1,4 +1,3 @@
-
 import './App.css'
 import AddTodo from './component/AddTodo'
 import Todos from './component/Todos'
@@ -13,5 +12,4 @@ function App() {
     </>
   )
 }
-
 export default App

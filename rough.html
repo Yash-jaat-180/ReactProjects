@@ -8,11 +8,13 @@
 <body><h1 class="system" id="sotha">This is my heading </h1>
     <button class="btn">Click me</button>
     <script>
-        let btn = document.querySelector('.btn');
-        btn.addEventListener('click', (e) => {
-            document.body.firstChild.innerHTML += "My name is Yash"; 
-            console.log(e.target);
-        });
+        const course ={
+            courseName: "js in hindi",
+            price: "999",
+            courseInstructor: "Hitesh"
+        }
+        const {courseInstructor : insturctor} = course;
+        console.log(courseInstructor);
     </script>
 </body>
 </html>
