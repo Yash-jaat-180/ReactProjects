@@ -27,8 +27,7 @@ function App() {
       <div className='w-full block'>
         <Header/>
         <main>
-          todo
-          {/* <Outlet/> */}
+          <Outlet/>
         </main>
         <Footer/>
       </div>
@@ -37,4 +36,3 @@ function App() {
 }
 
 export default App
- 
