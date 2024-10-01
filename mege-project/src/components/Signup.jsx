@@ -6,6 +6,7 @@ import { Button, Input, Logo } from './index.js'
 import { useDispatch } from 'react-redux'
 import { useForm } from 'react-hook-form'
 
+
 function Signup() {
     const navigate = useNavigate()
     const [error, setError] = useState("")
